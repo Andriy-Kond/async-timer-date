@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  background-color: #1e1e77;
+  color: #fff;
+
+  font-size: 20px;
+
+  &:active:hover {
+    background-color: #e1e974;
+    color: #1e1e77;
+  }
+
+  &:hover {
+    background-color: #2480bd;
+  }
+}
+
+.scoreboard {
+  font-size: 50px;
+}
