@@ -1,4 +1,4 @@
-import translateTime from "./service/translateTime";
+import translateTime from "./service/translateTime.js";
 
 const refs = {
   scoreboard: document.querySelector(".scoreboard"),
