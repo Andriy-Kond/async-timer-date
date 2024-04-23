@@ -1,4 +1,4 @@
-import pad from "./pad";
+import pad from "./pad.js";
 
 // - takes time in ms
 // - return obj with hours, mins, secs
