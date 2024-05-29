@@ -1,5 +1,4 @@
-import pad from "./pad.js";
-import addLeadingZero from "./pad.js";
+import { pad, addLeadingZero } from "./pad.js";
 
 // - takes time in ms
 // - return obj with hours, mins, secs
